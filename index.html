@@ -1,0 +1,201 @@
+<html lang="en"><head>
+	<title>Mohamed</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Sublime project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/product.css">
+	<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/cart.css">
+	<link rel="stylesheet" type="text/css" href="styles/cart_responsive.css">
+	<style id="__web-inspector-hide-shortcut-style__" type="text/css">
+	</style>
+	</head>
+	<body>
+	
+	<div class="super_container">
+	
+		<!-- Header -->
+	
+		<header class="header">
+			<div class="header_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_content d-flex flex-row align-items-center justify-content-start">
+								<div class="logo"><a href="#">Online Store.</a></div>
+								<nav class="main_nav">
+									<ul>
+										<li><button class="button contact_button" id="H"><span>Home</span></button></li>
+										<li><button class="button contact_button" id="A"><span>About</span></button></li>
+										<li><button class="button contact_button" id="C"><span>Contact</span></button></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Home -->
+	
+<div class="home">
+	<div class="home_slider_container">		
+				<!-- Home Slider -->
+		<div class="owl-carousel owl-theme home_slider owl-loaded owl-drag">
+			<div class="owl-stage-outer">
+				<div class="owl-stage" style="transform: translate3d(-2462px, 0px, 0px); transition: all 1.2s ease 0s; width: 8617px;">
+					<div class="owl-item" style="width: 1231px;"></div>
+					<div class="owl-item" style="width: 1231px;"></div>
+					<div class="owl-item cloned" style="width: 1231px;">
+						<div class="owl-item home_slider_item">
+							<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+							<div class="home_slider_content_container">
+								<div class="container">
+									<div class="row">
+										<div class="col">
+											<div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+												<div class="home_slider_title">A new Online Shop experience.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+		<!-- Products -->
+	
+		<div class="products" style="display:none" id="product1">  <!--This will be use in Event listener-->
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="product_grid" id="pro" style="position: relative; ">
+							<!--JS Script Product-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		<!-- Contact -->
+		<div class="contact" id="contact1" style="display:none">
+			<!--JS Script Contact-->
+		</div>
+
+		<!--My Cv-->
+		<div class="product_details" id="about1" style="display:none">
+		<!--About-->
+		</div>
+
+		<div class="product_details" id="product2" style="display:none">
+			<!--Product Page-->
+		</div>
+
+		<div class="cart_info" id="c1" style="display:none">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<!-- Column Titles -->
+						<div class="cart_info_columns clearfix">
+							<div class="cart_info_col cart_info_col_product">Product</div>
+							<div class="cart_info_col cart_info_col_price">Price</div>
+							<div class="cart_info_col cart_info_col_quantity">Quantity</div>
+							<div class="cart_info_col cart_info_col_total">Total</div>
+						</div>
+					</div>
+				</div>
+				<div class="row cart_items_row">
+					<div class="col" id="here">
+	
+						<!-- Cart Item -->
+						
+					</div>
+				</div>
+				<div class="row row_cart_buttons">
+					<div class="col">
+						<div class="cart_buttons d-flex flex-lg-row flex-column align-items-start justify-content-start">
+							<div class="cart_buttons_right ml-lg-auto">
+								<div class="button clear_cart_button finally"><a>Clear cart</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row_extra">
+					
+					<div class="col-lg-6 offset-lg-2">
+						<div class="cart_total">
+							<div class="section_title">Cart total</div>
+							<div class="section_subtitle">Final info</div>
+							<div class="cart_total_container">
+								<ul>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_total_title">Subtotal</div>
+										<div class="cart_total_value ml-auto totalP">$790.90</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_total_title">Shipping</div>
+										<div class="cart_total_value ml-auto">Free</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_total_title">Total</div>
+										<div class="cart_total_value ml-auto totalP">$790.90</div>
+									</li>
+								</ul>
+							</div>
+							<div class="button checkout_button finally"><a>Proceed to checkout</a></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!--Cart Page-->
+		</div>
+
+		<div style="position:absolute; top: 123px;">
+			<p>Hello</p>
+		</div>
+
+		<div class="floatBtn" id="gtc" style="display:none">
+			Go To Cart
+		</div>
+		
+		<!-- Footer -->
+		
+		<div class="footer_overlay"></div>
+		<footer class="footer">
+			<div class="footer_background" style="background-image:url(images/footer.jpg)"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+							<div class="footer_logo">Online Store.</div>
+							<div class="copyright ml-auto mr-auto">
+	Copyright ©2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Mohamed A.Elhay</a>
+							<div class="footer_social ml-lg-auto">
+								<ul>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="project.js"></script>
+	</body>
+	</html>
